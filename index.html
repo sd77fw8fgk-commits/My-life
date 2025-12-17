@@ -19,5 +19,19 @@
 </nav>
 
 <script src="app.js" defer ></script>
+  <!-- מודאל הוספת תחום -->
+<div id="areaModalOverlay" style="display:none;">
+  <div id="areaModal">
+    <h3>הוסף תחום</h3>
+    <input id="areaTitleInput" placeholder="שם התחום">
+
+    <div id="colorPalette"></div>
+
+    <div class="modal-actions">
+      <button onclick="closeAreaModal()">ביטול</button>
+      <button onclick="confirmAddArea()">הוסף</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
