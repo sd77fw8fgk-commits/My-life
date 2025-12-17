@@ -1,1 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue";
+  background: #0f1020;
+  color: #ffffff;
+}
 
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #7c7cff, #4dd0e1);
+}
+
+main {
+  padding: 16px;
+}
+
+.card {
+  background: #1c1d3a;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background: #7c7cff;
+  color: white;
+  font-size: 16px;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #15162f;
+  padding: 12px;
+}
