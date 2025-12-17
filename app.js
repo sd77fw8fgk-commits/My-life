@@ -1,4 +1,4 @@
-
+alert("נטען");
 const STORAGE_KEY = "life_app_stage1";
 
 /* ---------- State ---------- */
